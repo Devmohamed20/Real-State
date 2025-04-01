@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: "lh3.googleusercontent.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com", // ✅ Cloudinary's domain
+        pathname: "**", // allows all image paths
+      },
     ],
   },
 };

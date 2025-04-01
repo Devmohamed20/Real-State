@@ -49,6 +49,8 @@ const PropertyMap = ({ property }) => {
     fetchCoords();
   }, []);
 
+  console.log(lat, lng);
+
   if (loading) return <Spinner />;
   if (geoCodingError) {
     return <div className="text-xl">No location data found</div>;

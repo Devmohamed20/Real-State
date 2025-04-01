@@ -19,10 +19,12 @@ const PropertyCard = ({ property }) => {
       return `$${rates.nightly.toLocaleString()}/night`;
     }
   };
+
+  console.log("images", property.images[0]);
   return (
     <div className="bg-white rounded-xl shadow-md relative">
       <Image
-        src={`/properties/${property.images[0]}`}
+        src={`${property.images[0]}`}
         alt=""
         width="0"
         height="0"

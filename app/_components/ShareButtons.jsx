@@ -40,6 +40,13 @@ const ShareButtons = ({ property }) => {
         >
           <WhatsappIcon size={40} round={true} />
         </WhatsappShareButton>
+        <EmailShareButton
+          url={shareUrl}
+          subject={property.name}
+          body={`Check out this property listing: ${shareUrl}`}
+        >
+          <EmailIcon size={40} round={true} />
+        </EmailShareButton>
       </div>
     </>
   );

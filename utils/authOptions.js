@@ -36,6 +36,7 @@ export const authOptions = {
         return true;
       }
       // 4. Return true to allow sign in
+      return true;
     },
     // session callback function that modifies the session object
     async session({ session }) {

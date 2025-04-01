@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cloudinary": "^2.6.0",
+    "mapbox-gl": "^3.10.0",
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.0",
     "next": "14.2.24",
@@ -16,7 +18,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.5.0",
-    "react-spinners": "^0.15.0"
+    "react-map-gl": "^8.0.2",
+    "react-share": "^5.2.2",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
     "eslint": "^8",
